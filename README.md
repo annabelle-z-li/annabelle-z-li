@@ -16,6 +16,8 @@ This question matters to me because when I try to transcribe the music I love, I
 
 [Read the paper-in-progress](PAPER.md)
 
+---
+
 ## Current Projects
 
 **🎵 Music to Sheet Music**
@@ -35,6 +37,11 @@ and mode-specific prompting for opera and jazz styles.
 [→ View on Hugging Face](#)
 
 ---
+
+## Hugging Face
+
+Profile: <[https://huggingface.co/annabelle-li]>
+Collection: [music research + games](https://huggingface.co/collections/annabelle-li/music-research-games)
 
 ## Tools & Stack
 
