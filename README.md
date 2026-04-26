@@ -43,6 +43,26 @@ and mode-specific prompting for opera and jazz styles.
 Profile: <[https://huggingface.co/annabelle-li]>
 Collection: [music research + games](https://huggingface.co/collections/annabelle-li/music-research-games)
 
+---
+
+## Research Journal
+
+[research-journal.md](https://github.com/annabelle-z-li/AI-research-level-2/blob/main/research-journal.md) — weekly notes on what I've tested, noticed, and changed.
+
+---
+
+## What I'm Building Now
+
+- an AMT Report Card that scores an AI music transcription across pitch, timing, rhythm, and dynamics — then asks Claude to review it like a musician would.
+
+- [My Sources](https://github.com/annabelle-z-li/AI-research-level-2/blob/main/week-07-source-search.md)
+
+- an excerpt of my paper in progress:
+
+"This matters beyond my own experience. One of the promises of AI transcription tools is that they can make music more accessible — that a musician who cannot afford a professional transcriber, or who does not have the theory training to write out music by ear, could use a tool like this instead. If the output is this far from usable, then the tool is not actually delivering on that promise. Understanding why it fails, and which musical dimensions fail first, is the first step toward knowing what it would actually take to close that gap."
+
+---
+
 ## Tools & Stack
 
 `Python` `Gradio` `Hugging Face Spaces` `music21` `LilyPond`
