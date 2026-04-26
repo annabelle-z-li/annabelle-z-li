@@ -41,6 +41,7 @@ and mode-specific prompting for opera and jazz styles.
 ## Hugging Face
 
 Profile: <[https://huggingface.co/annabelle-li]>
+
 Collection: [music research + games](https://huggingface.co/collections/annabelle-li/music-research-games)
 
 ---
