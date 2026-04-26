@@ -14,7 +14,7 @@ Currently I'm researching this question:
 
 This question matters to me because when I try to transcribe the music I love, I always find it to be tedious and time-consuming. But I. and many others believe that AI could be the solution to this, like the recent research on Automatic Music Transcription (AMT). I know that there has been some tension between AI generation and music, as well as all art in general; but I believe that using AI as a tool for music can help budding musicians such as myself on our path, maybe even senior musicians. Thank you for reading :)
 
-[Read the paper-in-progress](https://github.com/<your-username>/<your-paper-repo>)
+[Read the paper-in-progress](PAPER.md)
 
 ## Current Projects
 
