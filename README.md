@@ -36,6 +36,11 @@ Text generation app using SmolLM2-360M-Instruct with dynamic visual theming
 and mode-specific prompting for opera and jazz styles.
 [→ View on Hugging Face](#)
 
+**📊 AMT Report Card**
+Scores an AI music transcription across pitch, timing, rhythm, and dynamics —
+then asks Claude to review the results like a musician would.
+[→ View on Hugging Face](https://huggingface.co/spaces/annabelle-li/amt-report-card)
+
 ---
 
 ## Hugging Face
