@@ -47,7 +47,7 @@ then asks Claude to review the results like a musician would.
 
 Profile: <[https://huggingface.co/annabelle-li]>
 
-Collection: [music research]([(https://huggingface.co/collections/annabelle-li/music-research)])
+Collection: [music research](https://huggingface.co/collections/annabelle-li/music-research)
 
 ---
 
