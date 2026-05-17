@@ -12,6 +12,12 @@ Currently I'm researching this question:
 
 "How do the architectural and computational constraints of AI music transcription models affect their ability to accurately represent the full range of musical information — including pitch, rhythm, dynamics, and instrumentation — and what are the implications for making these tools accessible and useful in real musical contexts?"
 
+### Why This Question Is Worth Asking
+
+Most AMT research is evaluated on clean, monophonic audio in controlled settings — a single piano note at a time, recorded in a studio. Real music is messier: layered instruments, expressive timing, dynamics that shift phrase by phrase. The gap between benchmark performance and what a working musician actually needs is rarely discussed, and almost never measured from a musician's perspective.
+
+I'm approaching this from both sides — as someone who builds the tools *and* someone who plays the music. That dual vantage point surfaces problems that a purely technical evaluation might miss.
+
 This question matters to me because when I try to transcribe the music I love, I always find it to be tedious and time-consuming. But I and many other researchers believe that AI could be the solution to this, like the recent research on Automatic Music Transcription (AMT). I know that there has been some tension between AI generation and music, as well as all art in general; but I believe that using AI as a tool for music can help budding musicians such as myself on our path, maybe even senior musicians. Thank you for reading :)
 
 [Read the paper-in-progress](https://github.com/annabelle-z-li/AI-research-level-2/blob/main/PAPER.md)
@@ -43,6 +49,14 @@ then asks Claude to review the results like a musician would.
 
 ---
 
+## Why AMT, and Why Now
+
+Automatic Music Transcription sits at an interesting inflection point. The underlying models (like Basic Pitch, MT3, and others) have improved dramatically in the last few years — but adoption by actual musicians remains limited. Part of that is usability, part of it is output quality, and part of it is that the tools aren't evaluated against what musicians actually need from a transcription.
+
+My research focuses on that last piece: not just *how accurate* the model is, but *which kinds of musical information it loses*, and whether what remains is usable. A transcription that gets pitch right but loses rhythm is not a transcription a musician can use. Understanding which dimensions fail, and in what order, is the first step toward knowing what "good enough" would actually look like.
+
+---
+
 ## Hugging Face
 
 Profile: <[https://huggingface.co/annabelle-li]>
@@ -66,6 +80,8 @@ Collection: [music research](https://huggingface.co/collections/annabelle-li/mus
 - an excerpt of my paper in progress:
 
 "This matters beyond my own experience. One of the promises of AI transcription tools is that they can make music more accessible — that a musician who cannot afford a professional transcriber, or who does not have the theory training to write out music by ear, could use a tool like this instead. If the output is this far from usable, then the tool is not actually delivering on that promise. Understanding why it fails, and which musical dimensions fail first, is the first step toward knowing what it would actually take to close that gap."
+
+What makes this question tractable for a student researcher is that the failure modes are *observable*. You don't need access to model weights or training data to notice that a syncopated jazz rhythm gets flattened, or that a crescendo disappears entirely in the MIDI output. The gap between the audio and the transcription is legible — and documenting it rigorously is itself a contribution.
 
 ---
 
